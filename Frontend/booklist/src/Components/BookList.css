@@ -1,0 +1,191 @@
+
+
+/* Login Page */
+
+.loginPage{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px 5px gray;
+}
+#loginInput{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.loginInput{
+    width: 50%;
+    height: 30px;
+}
+.loginbtn{
+    width: 50%;
+    height: 40px;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: rgb(103, 103, 253);
+}
+.error{
+    color: red;
+}
+
+/* Register Page */
+.loginLink{
+    margin-top: 30px;
+    font-size: x-large;
+    color: red;
+text-decoration: none;
+}
+
+/* Book List Page */
+.bookListPage{
+    width: 99.4%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(43, 40, 77);
+    color: white;
+    border: 5px solid black;
+}
+.addBookbtn{
+    margin-left: 800px;
+}
+#addbookbtn{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(247, 184, 12);
+    border-radius: 5px;
+}
+.mappedList{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.list{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: fit-content;
+    border: 2px solid black;
+}
+
+/* Add Book Page */
+
+.addBook{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addBookForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addbookinput{
+    margin-top: 20px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+}
+.submitbtn{
+    margin-top: 30px;
+    width: 30%;
+    height: 30px;
+    font-size: larger;
+    color: rgb(247, 184, 12);
+    background-color: rgb(43, 40, 77);
+    border-color:  rgb(247, 184, 12);
+}
+.booklistbtn{
+    margin-top: 50px;
+    margin-right: 390px;
+    width: 200px;
+    height: 35px;
+    padding: 5px 5px 5px 5px;
+    font-size: larger;
+    color: rgb(247, 184, 12);
+    background-color: rgb(43, 40, 77);
+    border-color:  rgb(247, 184, 12);
+    border-radius: 5px;
+}
+#booklistbtn{
+    text-decoration: none;
+    color: rgb(247, 184, 12);
+}
+
+/* Records Page */
+.bookRecord{
+width: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.records{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.delEdibtn{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.deletebtn{
+width: 300px;
+    height: 40px;
+    font-size: larger;
+    color: rgb(247, 12, 12);
+    background-color: rgb(43, 40, 77);
+    border-color: rgb(247, 12, 16);
+    border-radius: 5px;
+}
+.editbtn{
+    width: 300px;
+    height: 40px;
+    font-size: larger;
+    color: rgb(12, 212, 247);
+    background-color: rgb(43, 40, 77);
+    border-color: rgb(12, 212, 247);
+    border-radius: 5px;
+}
+#editbtn{
+    text-decoration: none;
+    color: rgb(12, 212, 247);
+}
+.bookdata{
+    width: 80%;
+    margin-top: 10px;
+    background-color: rgb(36, 34, 34);
+    height: 40px;
+}
+.editingBook{
+    
+}
